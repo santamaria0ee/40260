@@ -21,3 +21,5 @@ botones.forEach(function (boton) {
         }
     });
 });
+
+//no le entiendo profe :( 
