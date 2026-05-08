@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+button {
+    width: 33.3px;
+    height: 30px;
+    background-color: rgb(43, 98, 226);
+    border-color: rgb(43, 98, 226);
+}
+
+button[id="b0"] {
+    width: 100%;
+    color: red;
+}
+
+#todo {
+    width: 133px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input {
+    width: 133px;
+    height: 30px;
+}
+
+.operadores {
+    background-color: red;
+    color: white;
+}
