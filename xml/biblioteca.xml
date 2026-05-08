@@ -1,0 +1,22 @@
+<biblioteca>
+  <libro id="1">
+    <titulo>Compilers</titulo>
+    <autor>Smith</autor>
+    <anio>2005</anio>
+    <precio>45</precio>
+  </libro>
+  <libro id="2">
+    <titulo>Databases</titulo>
+    <autor>Jones</autor>
+    <anio>2010</anio>
+    <precio>55</precio>
+  </libro>
+  <libro id="3">
+    <titulo>AI Basics</titulo>
+    <autor>Smith</autor>
+    <anio>2018</anio>
+    <precio>60</precio>
+  </libro>
+</biblioteca>
+
+

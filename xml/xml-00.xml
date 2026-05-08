@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE direccion SYSTEM "xml-00.dtd">
+<direccion>
+    <nombrecompleto>
+        <nombre>Isaac</nombre>
+        <apellido>santamaria</apellido>
+    </nombrecompleto>
+    <correo>asjkl@gmail.com</correo>
+    <telefono>2203944</telefono>
+    <cumple>
+        <dia>23</dia>
+        <mes>34</mes>
+        <anio>7890</anio>
+    </cumple>
+</diraccion>

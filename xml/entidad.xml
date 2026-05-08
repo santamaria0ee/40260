@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE note [
+<!ELEMENT note (to, from, healing, body, footer?)>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT healing (#PCDATA)>
+<!ELEMENT body (#PCDATA)>
+<!ELEMENT footer (#PCDATA)>
+<!ATTLIST body color ID #REQUIRED>
+
+<!ENTITY nbsp "&#xA0;">
+<!ENTITY writer "Writer: Donald Duck.">
+<!ENTITY copyrigt "Copyrigt: W3Schools.">
+
+
+]>
+
+
+<note>
+<to>Tove</to>
+<from>Jani</from>
+<healing>Reminder</healing>
+<body>Dont fotgetme this weekwnd!</body>
+</note>

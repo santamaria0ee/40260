@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body>
+    <h1 id="a">titulo</h1>
+    <p id="b"> estoe ses un parafo </p>
+    <button id="c" onclick="escribe()">hola </button>
+    <input type="text">
+    <button id="d">color </button>
+    <br>
+    <input type="text" id="n1">
+    <input type="text" id = "n2">
+    <button id="suma">suma</button>
+
+    </button>
+
+</body>
+
+
+
+
+
+<script> //esto es un comentario 
+
+    const  x = function (a,b) {return a+b}
+    let sumaBoton =document.getElementById("suma")
+    // sumaBoton.addEventListener("click", function (){
+    //     let a = document.getElementById("n1)")
+    //     let b = document.getElementById("n2)")
+    //     let resultado = x(a,b)
+    //     document.getElementById("b").innerText = resultado
+    // })
+
+        sumaBoton.addEventListener("click", ()=>{
+            
+            let a = parseInt(document.getElementById("n1").value)
+            let b = parseInt(document.getElementById("n2").value)
+            let resultado = x(a,b)
+            document.getElementById("b").innerText = resultado
+        })
+
+
+
+    elemento = "cadena"
+    elemento = 0
+    elemento= [1,2,3,4,5]
+
+    for ( key in elemento) {
+       console.log (key)
+        
+    }
+    
+    function saludar(){
+        console.log("hola mundo")
+    }
+
+
+
+    for (i=0; i<5; i++)
+        console.log("hola mundo")
+
+    saludar();
+//acceso al dom
+
+
+let button = document.getElementById("c")
+console.log(button)
+
+
+function escribe () {
+    console.log(document.URL)
+    const html = document.getElementById("b")
+        console.log (html.innerText)
+    html.innerText = "nuevo texto"
+
+    let entrada = document.getElementsByTagName("input")
+    console.log(entrada[0].value)
+    html.innerText = entrada[0].value
+
+        for (const key in entrada) {
+        if (!Object.hasOwn(object, key))  entradae;
+    
+        const element = object[key]; 
+        console.log(element)
+
+    }
+}
+
+let color = document.getElementById("d")
+//color.addEventListener("click", cambiarColor)
+color.addEventListener("click", function () {
+    let entrada = document.getElementsByTagName("input")
+    let titulo = document.getElementById("a")
+    titulo.style.color = entrada [0].value
+})
+
+
+function cambiarColor(){
+    let entrada = document.getElementsByTagName("input")
+    let titulo = document.getElementById("a")
+    titulo.style.color = entrada [0].value 
+}
+
+
+
+
+</script>
+</html>
+
+
